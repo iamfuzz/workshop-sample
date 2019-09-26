@@ -72,9 +72,16 @@ Using a browser go to http://localhost:1313 to view the site.  Hugo is dynamic, 
 #### Editing 
 Hugo uses the content stored in `content` to build web pages.  If you look under the directory there is a file _index.md.  This is the startig point of the documentation and is the equivalent of index.html.  Each folder becomes the high level naviagation.  The numbers are there to create an ordering of the navigation.  You will want to look at each and every file in the content directory tree and edit.
 
-We call each of the different sections modules.  A module should be self contained within 2 folders, content and modules.  For html pages those all go into a folder under content.  For artifacts, scripts, CloudFormation templates, those go in a folder under modules.  The folder name you choose is determined by the order of the step in the workshop and purpose of that module.  As an example, if I wanted to create a module for CloudWatch dashboards I would determine that the dashboard would be added after security_testing module and create two folders, content/41_cw_dashboards & modules/41_cw_dashboards.  And because I'm lazy I would copy all the content from 40_security_test into 41_cw_dashboards and edit/delete/add as necessary.  
+We call each of the different sections modules.  A module should be self contained within 3 folders, content, modules, and static/images.  For html pages, those all go into a folder under content.  Feel free to use your company name.  For artifacts, scripts, CloudFormation templates, those go in a folder under modules using the same naming convention as content.  The folder name you choose is determined by the order of the step in the workshop and purpose of that module.  As an example, if I wanted to create a module for CloudWatch dashboards I would determine that the dashboard would be added after security_testing module and create two folders, content/41_cw_dashboards & modules/41_cw_dashboards.  And because I'm lazy I would copy all the content from 40_security_test into 41_cw_dashboards and edit/delete/add as necessary. The 3rd folder you need to create is under static/images.  Use your company name for this folder and place in any custom images you want to use as part of your content.  
 
 The sample workshop is a full working workshop so use that to your advantage.  In most cases the only content you would create from scratch is in your specific module. 
+
+> Content: I know you will need to change or add the following
+> * README.md
+> * content/_index.md
+> * content/{your workshop module}
+> * modules/{your workshop module}
+> * static/images/{company_name}
 
 **Tips**
 * To create a new page, copy another document and rename it.  The name is only important to the builders, but the actual name that shows in the navigation is the title at the top of the document.  
