@@ -82,6 +82,7 @@ The sample workshop is a full working workshop so use that to your advantage.  I
 > * content/{your workshop module}
 > * modules/{your workshop module}
 > * static/images/{company_name}
+> * layouts/partials/header.html  - Update meta property tags.
 
 **Tips**
 * To create a new page, copy another document and rename it.  The name is only important to the builders, but the actual name that shows in the navigation is the title at the top of the document.  
