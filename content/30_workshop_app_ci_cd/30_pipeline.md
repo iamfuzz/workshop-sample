@@ -41,7 +41,7 @@ until [[ `aws cloudformation describe-stacks --stack-name "WorkshopPipeline" --q
 ```
 
 {{% notice info %}}
-This step takes approximately 1 minute and if successfully, you should see the message as below.
+This step takes approximately 1 minute and if successful, you should see the message as below.
 {{% /notice %}}
 
 <pre>
