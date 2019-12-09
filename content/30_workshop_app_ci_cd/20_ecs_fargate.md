@@ -5,7 +5,7 @@ weight = 20
 +++
 
 ### Deploy Fargate Service 
-In the following set of commands we are going to use CloudFormation to deploy services that will allow our Unicorn Store application to service traffic from the Internet. The CloudFormation template sets up an ECS Cluster, a Service, Task Definition, Task, and Application Load Balancer. 
+In the following set of commands we are going to use CloudFormation to deploy services that will allow our Pet Store application to service traffic from the Internet. The CloudFormation template sets up an ECS Cluster, a Service, Task Definition, Task, and Application Load Balancer. 
 
 ```bash
 cd ~/environment/modernization-workshop/modules/30_workshop_app
