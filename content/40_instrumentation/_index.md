@@ -1,9 +1,9 @@
 +++
-title = "Security Testing Module"
+title = "Observability with New Relic"
 chapter = true
 weight = 40
 +++
 
-# Security Testing Module
+# Observability with New Relic
 
 {{% children showhidden="false" %}}

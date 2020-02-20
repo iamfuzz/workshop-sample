@@ -121,6 +121,7 @@ Resources:
       Cluster: !Ref ECSCluster
       DesiredCount: !Ref DesiredCount
       TaskDefinition: !Ref TaskDefinition
+      HealthCheckGracePeriodSeconds: 120
       LaunchType: FARGATE
       NetworkConfiguration:
         AwsvpcConfiguration:
@@ -189,7 +190,9 @@ Resources:
         Fn::ImportValue: !Sub "${VPCstack}:VPCId"
       Port: 8080
       Protocol: HTTP
-      HealthCheckIntervalSeconds: 10
+      HealthCheckIntervalSeconds: 60
+      HealthCheckTimeoutSeconds: 30
+      UnhealthyThresholdCount: 10
       HealthCheckPath: /
       HealthCheckProtocol: HTTP
       TargetType: ip

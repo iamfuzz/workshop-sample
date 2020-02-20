@@ -6,6 +6,8 @@ weight = 1
 
 {{% notice warning %}}
 Your account must have the ability to create new IAM roles and scope other IAM permissions.
+<br>
+Your account must also have the ability to create at least two new VPCs.
 {{% /notice %}}
 
 {{% notice note %}}

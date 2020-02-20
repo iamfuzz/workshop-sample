@@ -1,28 +1,30 @@
 ---
-title: "AWS Modernization Workshop Sample"
+title: "AWS Modernization Workshop: Observability"
 chapter: true
 weight: 1
 ---
 
-# AWS Modernization Workshop Sample
+# AWS Modernization Workshop: Observability
 
 ### Welcome
 
 <p style='text-align: left;'>
-    In this workshop, you will learn how to add security testing to a CI/CD pipeline of a dockerized application using AWS CodeCommit, AWS CodeBuild, and AWS CodePipeline. The modules contained in this workshop will provide you with step-by-step instructions for committing, building, testing, and deploying software in an automation fashion. You will also learn about some basic security tests and where to instrument them in the software development lifecycle. 
+    In this workshop, you will learn how to add Observability to a CI/CD pipeline of a dockerized Java application using AWS CodeCommit, AWS CodeBuid, AWS CodePipeline, and New Relic One. The modules contained in this workshop will provide you with step-by-step instructions for committing, building, testing, deploying, and monitoring software in an automation fashion. 
 </p>
 
 ### Objectives
 - Gain familiarity with the workflow of a modern application
-- Learn where to add security testing to a CI/CD pipeline
-- Learn about AWS services used to orchestrate testing 
+- Learn where to add Observability to a CI/CD pipeline
+- Learn how to deploy New Relic APM for end-to-end Observability of your applications
 
 ### What we will cover in this workshop
-- Setup of a Cloud9 environment
-- Usage of AWS CloudFormation to automate the deployment of infrastructure
-- Deployment of Amazon Elastic Container Service
-- Deploy and use a modenized pipeline using AWS CodePipeline, CodeCommit, and CodeBuild 
-- Instrument a couple of security testing/scanning tools
+- Setting up a Cloud9 environment
+- Using AWS CloudFormation to automate the deployment of infrastructure
+- Deploying Amazon Elastic Container Service
+- Deploying and using a modernized pipeline utilizing AWS CodePipeline, CodeCommit, and CodeBuild 
+- Deploying New Relic APM for application Observability
+- Using New Relic APM
+- Creating and viewing New Relic dashboards on the New Relic One platform
 
 ### Sample reference architecture
 
